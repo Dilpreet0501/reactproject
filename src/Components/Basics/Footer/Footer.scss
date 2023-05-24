@@ -47,8 +47,22 @@ h3{
     font-size: 15px;
    justify-content: center;
 }
-@media(max-width :768px) {
+@media(max-width :768px) and (min-width :500px){
   .contain{
     padding-left: 20px;
   }  
+
 }
+@media (max-width :500px){
+    .contain{
+      grid-template-columns: 1fr;
+      padding-left: 10px;
+    }  
+    .datas{
+        grid-template-columns: 1fr;
+    }
+    .copy{
+        justify-content: left;
+    }
+  
+  }
