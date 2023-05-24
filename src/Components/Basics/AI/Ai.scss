@@ -87,7 +87,7 @@ hr{
    
 }
 }
-@media(max-width: 970px){
+@media (min-width : 500px) and (max-width: 970px){
     .colab{
         padding-left: 40px;
         padding-right: 0;
@@ -100,6 +100,26 @@ hr{
     }
     .pr{
      font-size: 20px;
+    }
+
+}
+@media(max-width : 500px){
+    .colab{
+        padding-left: 0px;
+        padding-right: 0;
+    }
+    .what,.cloud,.speed,.choices{
+        grid-template-columns: 1fr;
+    }
+    h1{
+        font-size: 30px;
+        width: 90%;
+    }
+    .pr{
+     font-size: 15px;
+    }
+    .caption{
+        width: 90%;
     }
 
 }
